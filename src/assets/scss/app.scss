@@ -1,3 +1,6 @@
+$primary-color: #DC780b;
+
 html{
-    background: blue;
+    background: $primary-color;
 }
+@import './components/header';
