@@ -1,6 +1,13 @@
-$primary-color: #DC780b;
+// основный стили
+@import "./main/stylesheet.scss";
+@import "./main/reset.scss";
+@import "./main/main.scss";
 
-html{
-    background: $primary-color;
-}
-@import './components/header';
+// стили компонентов
+@import "./components/header.scss";
+@import "./components/fs.scss";
+@import "./components/features.scss";
+@import "./components/features__item.scss";
+@import "./components/menu.scss";
+@import "./components/menu__card.scss";
+@import "./components/footer.scss";

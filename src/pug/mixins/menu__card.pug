@@ -1,0 +1,18 @@
+mixin menu__card(img, name, price, description, plus, stars)
+    .menu__card.card
+        img(src=img, alt="name").card__img
+        .card__dish 
+            p.card__name=name
+            p.card__price=price
+        .card__description=description
+        .card__bottom
+            button.card__add
+                img(src=plus, alt="add")
+            .rating(data-rating=stars)
+                .rating__star
+                .rating__star
+                .rating__star
+                .rating__star
+                .rating__star
+                
+                

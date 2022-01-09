@@ -1,0 +1,29 @@
+@import "../main/vars.scss";
+
+.features{
+    text-align: center;
+    margin-bottom: 152px;
+    
+
+    &__features{
+        color: $orange-color;
+        font-weight: bold;
+        padding-bottom: 10px;
+
+    }
+    &__slogan{
+        font-family: $secondary-font;
+        Font-style: Bold;
+        Font-size: 31.25px;
+        color: $primary-color-100;
+        padding-bottom: 65px;
+    }
+    &__items{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 29px;
+
+    }
+}

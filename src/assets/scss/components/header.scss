@@ -1,3 +1,48 @@
-header{
-    background: green;
+@import "../main/vars.scss";
+
+.header {
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 30px;   
+    }
 }
+.header__logo{
+        margin-right: 35px;
+    }
+
+.header__nav {       
+    &-link {
+        display: inline-block;
+        color: $primary-color-60;
+        font-weight: 500;
+        text-decoration: none;  
+        padding-right: 40px;
+        padding-bottom: 5px;        
+
+    }
+    &-link_colored {
+        color: $orange-color;
+        font-weight: 500;
+    }
+}
+.header__button {
+    display: inline-block;
+    color: $secondary-color;
+    background: $orange-background;
+    border-radius: 5px;
+    padding: 13px 25px;
+    margin-left: auto;
+    margin-bottom: 6.5px;
+
+    &:hover {
+        background-color: $primary-color-60;
+    }
+}
+
+
+
+
+

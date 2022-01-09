@@ -1,4 +1,14 @@
 header.header 
-    menu
-        a(href="./index.html") Главная
-        a(href="./about.html") О нас
+    .container
+        .header__row
+            a.header__logo(href="index.html")
+                img(src="./assets/imgs/logo.png", alt="Food")
+            menu.header__nav
+                a(href="#").header__nav-link.header__nav-link_colored Home
+                a(href="#").header__nav-link About us
+                a(href="#").header__nav-link Menu
+                a(href="#").header__nav-link Features
+                a(href="#").header__nav-link Contact us
+            button.header__button Booking Now
+            
+

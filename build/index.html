@@ -4,25 +4,181 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Healthy Food Landing Page</title>
     <link rel="stylesheet" href="./assets/css/app.css">
   </head>
   <body>
     <header class="header"> 
-      <menu><a href="./index.html">Главная</a><a href="./about.html">О нас</a></menu>
+      <div class="container">
+        <div class="header__row"><a class="header__logo" href="index.html"><img src="./assets/imgs/logo.png" alt="Food"></a>
+          <menu class="header__nav"><a class="header__nav-link header__nav-link_colored" href="#">Home</a><a class="header__nav-link" href="#">About us</a><a class="header__nav-link" href="#">Menu</a><a class="header__nav-link" href="#">Features</a><a class="header__nav-link" href="#">Contact us</a></menu>
+          <button class="header__button">Booking Now</button>
+        </div>
+      </div>
     </header>
-    <h4>Заголовок секция</h4>
-    <div class="item">
-      <div class="item__img"> <img src="./assets/imgs/kak-zastavit-01.jpeg" alt="картинка"/></div>
-      <h4 class="item__title">Заголовок<b>наш</b></h4>
-    </div>
-    <div class="item">
-      <div class="item__img"> <img alt="картинка"/></div>
-      <h4 class="item__title"></h4>
-    </div>
-    <div class="item">
-      <div class="item__img"> <img alt="картинка"/></div>
-      <h4 class="item__title"></h4>
-    </div>
+    <main class="main">
+      <section class="container">
+        <div class="fs">
+          <div class="fs__block"> 
+            <h1 class="fs__title">Making time a good time by making food the good food.             </h1>
+            <p class="fs__text">
+              There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but 
+              also specialized equipment,
+            </p>
+            <div class="fs__buttons">
+              <button class="fs__btn1">Order Now </button>
+              <button class="fs__btn2">Food Details</button>
+            </div>
+          </div>
+          <div class="fs__img"><img src="./assets/imgs/burgers2.png" alt="Pan"></div>
+        </div>
+      </section>
+      <section class="container">
+        <div class="features">
+          <p class="features__features">F E A T U R E S </p>
+          <h3 class="features__slogan">Food With A New Passion </h3>
+          <div class="features__items"> 
+                  <div class="features__item"><img class="features__item-img" src="./assets/imgs/house.svg" alt="Quality Food">
+                    <h4 class="features__item-title">Quality Food</h4>
+                    <p class="features__item-text">It can be a very secure path to earn good money and make you very successful creative entrepreneur.</p>
+                  </div>
+                  <div class="features__item"><img class="features__item-img" src="./assets/imgs/courier.svg" alt="Food Delivery">
+                    <h4 class="features__item-title">Food Delivery</h4>
+                    <p class="features__item-text">It can be a very secure path to earn good money and make you very successful creative entrepreneur.</p>
+                  </div>
+                  <div class="features__item"><img class="features__item-img" src="./assets/imgs/smiley.svg" alt="Super Taste">
+                    <h4 class="features__item-title">Super Taste</h4>
+                    <p class="features__item-text">It can be a very secure path to earn good money and make you very successful creative entrepreneur.</p>
+                  </div>
+          </div>
+        </div>
+      </section>
+      <section class="container"> 
+        <div class="menu"> 
+          <p class="menu__menu">M E N U </p>
+          <h3 class="menu__title">Food Full of treaty Love </h3>
+          <p class="menu__text">There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers,</p>
+          <div class="menu__cards"> 
+                  <div class="menu__card card"><img class="card__img" src="./assets/imgs/chicken.png" alt="name">
+                    <div class="card__dish"> 
+                      <p class="card__name">Vegie Muffen</p>
+                      <p class="card__price">16$</p>
+                    </div>
+                    <div class="card__description">There are many things are needed to start the Fast Food Business.</div>
+                    <div class="card__bottom">
+                      <button class="card__add"><img src="./assets/imgs/plus.svg" alt="add"></button>
+                      <div class="rating" data-rating="4">
+                        <div class="rating__star"></div>
+                        <div class="rating__star"></div>
+                        <div class="rating__star"></div>
+                        <div class="rating__star"></div>
+                        <div class="rating__star"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu__card card"><img class="card__img" src="./assets/imgs/breast.png" alt="name">
+                    <div class="card__dish"> 
+                      <p class="card__name">Salads</p>
+                      <p class="card__price">12$</p>
+                    </div>
+                    <div class="card__description">There are many things are needed to start the Fast Food Business.</div>
+                    <div class="card__bottom">
+                      <button class="card__add"><img src="./assets/imgs/plus.svg" alt="add"></button>
+                      <div class="rating" data-rating="5">
+                        <div class="rating__star"></div>
+                        <div class="rating__star"></div>
+                        <div class="rating__star"></div>
+                        <div class="rating__star"></div>
+                        <div class="rating__star"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu__card card"><img class="card__img" src="./assets/imgs/burger.png" alt="name">
+                    <div class="card__dish"> 
+                      <p class="card__name">Burger</p>
+                      <p class="card__price">10$</p>
+                    </div>
+                    <div class="card__description">There are many things are needed to start the Fast Food Business.</div>
+                    <div class="card__bottom">
+                      <button class="card__add"><img src="./assets/imgs/plus.svg" alt="add"></button>
+                      <div class="rating" data-rating="3">
+                        <div class="rating__star"></div>
+                        <div class="rating__star"></div>
+                        <div class="rating__star"></div>
+                        <div class="rating__star"></div>
+                        <div class="rating__star"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu__card card"><img class="card__img" src="./assets/imgs/salad.png" alt="name">
+                    <div class="card__dish"> 
+                      <p class="card__name">Delmonico Steak dish</p>
+                      <p class="card__price">14$</p>
+                    </div>
+                    <div class="card__description">There are many things are needed to start the Fast Food Business.</div>
+                    <div class="card__bottom">
+                      <button class="card__add"><img src="./assets/imgs/plus.svg" alt="add"></button>
+                      <div class="rating" data-rating="2">
+                        <div class="rating__star"></div>
+                        <div class="rating__star"></div>
+                        <div class="rating__star"></div>
+                        <div class="rating__star"></div>
+                        <div class="rating__star"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu__card card"><img class="card__img" src="./assets/imgs/eggs.png" alt="name">
+                    <div class="card__dish"> 
+                      <p class="card__name">Egg Masala</p>
+                      <p class="card__price">9$</p>
+                    </div>
+                    <div class="card__description">There are many things are needed to start the Fast Food Business.</div>
+                    <div class="card__bottom">
+                      <button class="card__add"><img src="./assets/imgs/plus.svg" alt="add"></button>
+                      <div class="rating" data-rating="4">
+                        <div class="rating__star"></div>
+                        <div class="rating__star"></div>
+                        <div class="rating__star"></div>
+                        <div class="rating__star"></div>
+                        <div class="rating__star"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu__card card"><img class="card__img" src="./assets/imgs/avocado.png" alt="name">
+                    <div class="card__dish"> 
+                      <p class="card__name">Peach Melba dish</p>
+                      <p class="card__price">15$</p>
+                    </div>
+                    <div class="card__description">There are many things are needed to start the Fast Food Business.</div>
+                    <div class="card__bottom">
+                      <button class="card__add"><img src="./assets/imgs/plus.svg" alt="add"></button>
+                      <div class="rating" data-rating="3">
+                        <div class="rating__star"></div>
+                        <div class="rating__star"></div>
+                        <div class="rating__star"></div>
+                        <div class="rating__star"></div>
+                        <div class="rating__star"></div>
+                      </div>
+                    </div>
+                  </div>
+          </div>
+          <button class="menu__end">Learn More</button>
+        </div>
+      </section>
+    </main>
+    <section class="color"> 
+      <div class="container"> 
+        <div class="footer"> 
+          <div class="footer__contact"> <a href="index.html"> <img src="./assets/imgs/logo2.png" alt="logo"></a><a href="www.companyname.com" target="_blank">www.company name.com</a><a href="mailto: companyname@gmail.com"> companyname@gmail.com</a><a href="tel: +7 485-118-03-25"> Phone: +7 485-118-03-25</a></div>
+          <div class="footer__info">
+            <div class="footer__column"> <a href="index.html"> <span class="footer__menu">Home            </span></a><a href="#"> Landingpage</a><a href="#"> Documentation</a><a href="#"> Referral Program</a><a href="#"> UI & UX Design</a><a href="#"> Web Design</a></div>
+            <div class="footer__column"> <a href="#"> <span class="footer__menu">Menu            </span></a><a href="#"> Landingpage</a><a href="#"> Documentation</a><a href="#"> Referral Program</a><a href="#"> UI & UX Design</a><a href="#"> Web Design</a></div>
+            <div class="footer__column"> <a href="#"> <span class="footer__menu">Company            </span></a><a href="#"> Landingpage</a><a href="#"> Documentation</a><a href="#"> Referral Program</a>
+              <div class="footer__media"> <a href="www.instagram.com" target="_blank"> <img src="./assets/imgs/instagram.png" alt="instargam" target="_blank"></a><a href="www.facebook.com"> <img src="./assets/imgs/facebook.png" alt="facebook" target="_blank"></a><a href="www.twitter.com"> <img src="./assets/imgs/twitter.png" alt="twitter" target="_blank"></a><a href="www.youtube.com"> <img src="./assets/imgs/youtube.png" alt="youtube" target="_blank"></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

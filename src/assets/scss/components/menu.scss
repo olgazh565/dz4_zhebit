@@ -1,0 +1,43 @@
+@import "../main/vars.scss";
+
+.menu{
+    text-align: center;
+
+    &__menu{
+        color: $orange-color;
+        font-weight: bold;
+        padding-bottom: 10px;
+
+    }
+    &__title{
+        font-family: $secondary-font;
+        color: $primary-color-100;
+        font-style: Bold;
+        font-size: 31.25px;
+        padding-bottom: 32px;
+
+    }
+    &__text{
+        line-height: 24px;
+        color: $primary-color-70;
+        font-weight: bolder;
+        padding: 0 201px 68px;
+    }
+    &__cards{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;              
+
+    }
+    &__end{
+        color: $orange-color;
+        font-weight: bold;
+        background: $primary-background;
+        border-radius: 5px;       
+        padding: 11px 30px;
+        margin-top: 23px;
+        margin-bottom: 210px;
+        
+    }
+}

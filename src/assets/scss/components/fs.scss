@@ -1,0 +1,55 @@
+@import "../main/vars.scss";
+
+.fs{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin-top: -9px;
+    margin-bottom: 62px;
+
+    &__block{
+        max-width: 48%;
+        // padding-bottom: 40px;
+    }
+    &__img{
+        max-width: 52%;
+    }   
+}
+.fs__title{
+    font-family: $secondary-font;
+    font-weight: bold;
+    font-size: 48.83px;
+    color: $primary-color-100;
+    line-height: 58px;        
+}
+.fs__text{
+    font-weight: 500;
+    font-style: medium;
+    line-height: 24px;
+    color: $primary-color-100;    
+    padding: 30px 0;
+}
+.fs__buttons{
+    display: inline-block;
+    margin-top: 15px;    
+}
+.fs__btn1{
+    background: $orange-background;
+    border-radius: 5px;
+    font-weight: 500;
+    color: $secondary-color;
+    padding: 20px 37px;
+    margin-right: 26px;
+}
+.fs__btn2{
+    background: $primary-background;
+    border-radius: 5px;
+    color: $orange-color;
+    font-weight: bold;   
+    padding: 20px 37px;
+    border: 2px;
+}
+   
+

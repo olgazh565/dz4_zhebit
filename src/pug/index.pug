@@ -1,12 +1,10 @@
-extends layout/layout
-include mixins/item
-block main  
-    - var title = "Заголовок секция";
-    h4=title
-    
-    +item("./assets/imgs/kak-zastavit-01.jpeg", "Заголовок<b>наш</b>")
-    +item()
-    +item()
+extends ./layout/layout
 
- 
+block main
+    main.main
+        include ./components/fs
+        include ./components/features
+        include ./components/menu        
+
+
 

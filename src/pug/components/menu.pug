@@ -1,0 +1,15 @@
+include ../mixins/menu__card
+
+section.container 
+    .menu 
+        p.menu__menu M E N U 
+        h3.menu__title Food Full of treaty Love 
+        p.menu__text There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers,
+        .menu__cards 
+            +menu__card("./assets/imgs/chicken.png", "Vegie Muffen", "16$", "There are many things are needed to start the Fast Food Business.", "./assets/imgs/plus.svg", "4")
+            +menu__card("./assets/imgs/breast.png", "Salads", "12$", "There are many things are needed to start the Fast Food Business.", "./assets/imgs/plus.svg", "5")
+            +menu__card("./assets/imgs/burger.png", "Burger", "10$", "There are many things are needed to start the Fast Food Business.", "./assets/imgs/plus.svg", "3")
+            +menu__card("./assets/imgs/salad.png", "Delmonico Steak dish", "14$", "There are many things are needed to start the Fast Food Business.", "./assets/imgs/plus.svg", "2")
+            +menu__card("./assets/imgs/eggs.png", "Egg Masala", "9$", "There are many things are needed to start the Fast Food Business.", "./assets/imgs/plus.svg", "4")
+            +menu__card("./assets/imgs/avocado.png", "Peach Melba dish", "15$", "There are many things are needed to start the Fast Food Business.", "./assets/imgs/plus.svg", "3")
+        button.menu__end Learn More

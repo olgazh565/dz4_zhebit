@@ -1,0 +1,24 @@
+@import "./vars.scss";
+
+html {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    background: $primary-background;
+    color: $primary-color-70;
+}
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+button{
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
